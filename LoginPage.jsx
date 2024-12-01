@@ -5,7 +5,7 @@ function LoginPage() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-4xl flex flex-col md:flex-row">
-        {/* Right side: Image */}
+        
         <div className="hidden md:block md:w-1/2 p-4">
           <img
             src="./src/assets/mkp.png"  
@@ -14,7 +14,7 @@ function LoginPage() {
           />
         </div>
 
-        {/* Left side: Login form */}
+      
         <div className="w-full md:w-1/2 p-4">
           <h2 className="text-2xl font-bold text-center mb-6">Login</h2>
           <form action="#" method="POST" className="space-y-4">
